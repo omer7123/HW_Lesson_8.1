@@ -15,6 +15,7 @@ public class Warrior extends Hero {
         change = ran1.nextInt(4 - 2 + 1) + 2;
 
         boss.setHealth(boss.getHealth() - (heroes[0].getDamage() * change));
+        System.out.println("Warrior нанес уритический удар: " + heroes[0].getDamage() * change);
 
     }
 

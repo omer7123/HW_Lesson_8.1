@@ -44,7 +44,7 @@ public class RPG_Game {
             System.out.println(heroes[i].getClass().getSimpleName() + " " + "damage: " + heroes[i].getDamage());
         }
 
-        System.out.println("Warrior нанес критический удар: " + heroes[0].getDamage() * Warrior.getChange());
+        //System.out.println("Warrior нанес критический удар: " + heroes[0].getDamage() * Warrior.getChange());
     }
 
     private static void round(Boss boss, Hero[] heroes) {
